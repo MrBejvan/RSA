@@ -1,0 +1,38 @@
+#include <iostream>
+#include <algorithm>
+
+using namespace std;
+
+#function
+
+int dec_to_bin (int n) {
+    dec_num = n
+    if dec_num < 0 { 
+        return
+    }
+    
+    list<int> lst;
+    int k;
+
+    while (dec_num > 0) {
+        k = dec_num % 2
+        lst.insert(0, k)
+        dec_num = n // 2
+    } 
+
+    print(list)
+    return list
+}
+
+int main()  
+{
+cout << "Enter your decimal number: "; 
+cin >> x;
+cout << "You entered, ", x;
+
+
+
+cout << x, "in binary is, " dec_to_bin(x);
+
+
+}
