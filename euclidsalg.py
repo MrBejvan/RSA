@@ -1,5 +1,6 @@
 def EU (a, b):
     if (a < 0 or b < 0):
+        print("invalid input; vales must be greater that or equal to 0")
         return
     
     x = a
